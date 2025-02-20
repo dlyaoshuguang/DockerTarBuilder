@@ -1,4 +1,4 @@
-name: Get-ARM64-Docker-Images-Release
+name: Get-ARM64/V3 test-Docker-Images-Release
 
 on:
   workflow_dispatch:
