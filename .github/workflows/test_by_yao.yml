@@ -1,4 +1,4 @@
-name: Get-ARM64/V3 test-Docker-Images-Release
+name: Get-ARM64-Docker-Images-Release-from-ubuntu-20.04
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   pull_and_package:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
